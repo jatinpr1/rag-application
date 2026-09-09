@@ -1,0 +1,21 @@
+[project]
+name = "rag-backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+requires-python = "^3.11"
+dependencies = [
+    "fastapi (>=0.141.1,<0.142.0)",
+    "uvicorn (>=0.52.4,<0.53.0)",
+    "boto3 (>=1.43.90,<2.0.0)",
+    "pydantic (>=2.13.5,<3.0.0)",
+    "python-dotenv (>=1.2.3,<2.0.0)",
+    "python-multipart (>=0.0.32,<0.0.33)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
