@@ -19,3 +19,4 @@ def test_aws_connection():
     response = s3_client.list_buckets()
     bucket_names = [bucket["Name"] for bucket in response["Buckets"]]
     return {"status": "connected", "buckets": bucket_names}
+print("fef")
